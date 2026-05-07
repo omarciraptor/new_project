@@ -50,6 +50,47 @@ Notebook version of the same code, useful for SageMath notebooks, CoCalc, or a J
 
 This code is written for **SageMath**.
 
+### Installing SageMath
+
+On Ubuntu or Debian:
+
+```bash
+sudo apt update
+sudo apt install sagemath
+```
+
+On Fedora:
+
+```bash
+sudo dnf install sagemath
+```
+
+On Arch Linux:
+
+```bash
+sudo pacman -S sagemath
+```
+
+On macOS with Homebrew:
+
+```bash
+brew install --cask sage
+```
+
+On Windows, the recommended local option is to install SageMath through WSL.
+For example, after installing Ubuntu in WSL:
+
+```bash
+sudo apt update
+sudo apt install sagemath
+```
+
+To verify the installation:
+
+```bash
+sage --version
+```
+
 Recommended environments:
 
 - SageMath installed locally.
